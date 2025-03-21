@@ -52,8 +52,8 @@ public class Main {
         }
         else if (inventario.containsKey(eliminar)){
             inventario.remove(eliminar);
+            System.out.println("Se elimino el producto con id " + eliminar);
         }
-
 
 
         System.out.println("Inventario final es: " + inventario);
