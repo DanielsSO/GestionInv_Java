@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String respuesta;
 
         Inventario_prod inventario = new Inventario_prod(scanner);
         boolean menu = true;
